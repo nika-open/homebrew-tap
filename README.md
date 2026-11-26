@@ -1,8 +1,12 @@
 <p align="center">
   <a href="https://nika.sh">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://nika.sh/brand/nika-logo-dark.svg">
-      <img src="https://nika.sh/brand/nika-logo-light.svg" alt="Nika" width="220">
+      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-homebrew-tap-dark.png?v=9495ae234fb7">
+      <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-homebrew-tap-light.png?v=6dff68d7f7a9">
+      <source media="(prefers-color-scheme: dark)" type="image/webp" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-homebrew-tap-dark.webp?v=cce77a538125">
+      <source type="image/webp" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-homebrew-tap-light.webp?v=ce165b1347a2">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-homebrew-tap-dark.gif?v=f8eab3a277ea">
+      <img src="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/banner-homebrew-tap-light.gif?v=e5e46badd246" alt="Nika. Homebrew. One command installs Nika. A minute later you have written, checked, run and verified your first AI workflow, with no account and no API key." width="100%">
     </picture>
   </a>
 </p>
@@ -18,7 +22,7 @@
   <a href="Formula/nika.rb"><img src="https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnika-open%2Fhomebrew-tap%2Fmain%2FFormula%2Fnika.rb&amp;search=version%20%22(%5B0-9.%5D%2B)%22&amp;replace=%241&amp;label=formula" alt="Formula pin"></a>
   <a href="https://github.com/nika-open/homebrew-tap/actions/workflows/test.yml"><img src="https://github.com/nika-open/homebrew-tap/actions/workflows/test.yml/badge.svg?branch=main" alt="Tap gate status"></a>
   <a href="https://github.com/nika-open/nika/releases/latest"><img src="https://img.shields.io/github/v/release/nika-open/nika?label=engine" alt="Engine release"></a>
-  <a href="https://docs.nika.sh"><img src="https://img.shields.io/badge/docs-docs.nika.sh-8b8cf8.svg" alt="Documentation"></a>
+  <a href="https://docs.nika.sh"><img src="https://img.shields.io/badge/docs-docs.nika.sh-2650ff.svg" alt="Documentation"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT"></a>
   <br>
   <a href="https://scorecard.dev/viewer/?uri=github.com/nika-open/homebrew-tap"><img src="https://api.scorecard.dev/projects/github.com/nika-open/homebrew-tap/badge" alt="OpenSSF Scorecard"></a>
@@ -362,6 +366,13 @@ workflow.
 
 <!-- city:map -->
 ## 🦋 The Nika family
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/family-dark.png?v=4cfc8ec611de">
+    <img src="https://raw.githubusercontent.com/nika-open/.github/main/profile/assets/family-light.png?v=dfedffa46450" alt="The repositories of Nika. The language and its engine: nika-spec and nika. From the tools you already use: nika-plugins, nika-vscode, nika-client and gh-nika. On every pull request, and beyond: nika-action, nika-actions-starter, nika-registry, homebrew-tap, nika-estate and nika-docs." width="100%">
+  </picture>
+</p>
 
 | | Repository | What it gives you |
 |---|---|---|
