@@ -4,26 +4,26 @@
 class Nika < Formula
   desc "Workflow language for AI - audit pipelines before they run, trace after"
   homepage "https://nika.sh"
-  version "0.125.1"
+  version "0.125.2"
   license "AGPL-3.0-or-later"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/nika-open/nika/releases/download/v#{version}/nika-macos-arm64-#{version}.tar.gz"
-      sha256 "b14340eb182f98aaf6a24d9872db926735eb6660c03045568ff663e1f06f59cb"
+      sha256 "fcd162d05c650ce43fa4650ed180b2d38eec90f26139a6034fd7a64705fbc86e"
     else
       url "https://github.com/nika-open/nika/releases/download/v#{version}/nika-macos-x64-#{version}.tar.gz"
-      sha256 "e320aeadf7b7be16658763e053266a0267480f093b110fb3b9c0818c98be644d"
+      sha256 "97eef5c3d9df04c689210e934d951696e27e84addc5a567be008aa93ff18167a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/nika-open/nika/releases/download/v#{version}/nika-linux-arm64-#{version}.tar.gz"
-      sha256 "993f7962c4f8d22626b0a1733df900a19952ced9a735035c80d7fd43d6d7aa2a"
+      sha256 "a01b124d62fd8ccdbde332e556518b76d6924a1fabd05e2f35f652a005bfeb7a"
     else
       url "https://github.com/nika-open/nika/releases/download/v#{version}/nika-linux-x64-#{version}.tar.gz"
-      sha256 "d688cca8c9aa0ab3dec0c58a416049d8e7e550f020539cc25151af4a8883e9fc"
+      sha256 "097a5401374f70303a9efea3da7b1c51e5b7cd735f9218f418ba0e2078dd58de"
     end
   end
 
